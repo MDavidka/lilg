@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Smartphone, ChevronRight, ArrowLeft, Check, DollarSign, Shield, Truck } from 'lucide-react'
 import Button from '../components/Button'
-import { phones, brands } from '../data/products'
+import { phones } from '../data/products'
 import { cn } from '../../lib/utils'
 
 type Step = 'select' | 'condition' | 'quote'
